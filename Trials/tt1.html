@@ -1,0 +1,32 @@
+<!--need to have doctype html declaration, to tell the server that my html version is html 5, at the start of every html file. Name the file in all small without space or hyphen as webservers may differentiate based on that-->
+<!DOCTYPE html>
+<html lang="en">
+  <!--en-US or en-GB etc or simply en-->
+  <head>
+    <meta charset="UTF-8" ><!--unicode character set-->
+    <meta name="author" content="Saptarshi Bandyopadhyay">
+    <meta name="description" content="This page contains all the things that I am learning in this free time about html documents">
+    <!--Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. which is appearing on formatting using prettier-->
+    <!-- <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="John Doe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> (eg of other meta tags) utf-8 is generally used meta tag... -->
+    
+    <!--use of meta data is in filtering the search results of html documents to search in search engines by description, author, keywords etc-->
+    <title>Not My First Web Page</title>
+    <link rel="icon" href="HTML5_logo_and_wordmark.png" type="image/x-icon"><!--head is where we add css files javascript files and all other resources we use from the internet-->
+    <style>
+      html {
+        font-size: 22px;
+      }
+      body {
+        background-color: #333;
+        color: cornflowerblue;
+      }
+    </style><!--if we use css we wont be putting the style tag here see tt2 for more details-->
+  </head>
+  <body>
+    <h1>Hello Welcome to the World!</h1>
+    <p>This is not my first web page</p>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--can refer to loremipsum.io/21-of-the-best-placeholder-image-generators unsplash.com pexels.com gratisography.com pixabay.com pixabay.com irfanview.com to crop resize images with same aspect ratio... canva.com tinypng.com to compress png tinyjpg.com for jpg...-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Saptarshi Bandyopadhyay">
+    <meta name="description"
+        content="This page contains all the things that I am learning in this free time about html documents">
+    <title>Not My First Web Page</title>
+    <link rel="icon" href="img/HTML5_logo_and_wordmark.png" >
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <h1>Hello Welcome to the World!</h1>
+
+    <hr>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#html">Learning HTML</a>
+            </li>
+            <li>
+                <a href="#vacation">Planning a vacation</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <section id="html">
+        <h2>I am ready to learn html</h2>
+        <p>This is not my first web page</p>
+        <img src="img/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML5" width="200" height="200"><!--alt is to display a message in case the image is unable to be showns; title should not have something very important as it is only visible when we hover over it with the mouse--><!-- providing only 1 dimension will automatically adjust the other as per the aspect ratio; css may overwrite them--><!--cumulative layout shift occurs due to popups by the browser and may make you click on something you didnt intend to... so to prevent it we tell the browser through html how much space (both width and height) the image is going to take up to prepare the browser for what's coming...-->
+        <figure>
+            <figcaption>An Example of HTML5 code</figcaption>
+            <p>
+                <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code><!--element to display code cant use other elements inside it though-->
+            </p>
+        </figure>
+        <h3>My Daily Schedule</h3>
+        <p>Let me tell you how :</p>
+        <ol>
+            <li>&nbsp;&nbsp;&nbsp;... I learn more web dev.</li>
+            <li>&nbsp;&nbsp;&nbsp;... I plan out my schedule.</li>
+            <li>&nbsp;&nbsp;&nbsp;... I use resources from <abbr title="Mozilla Developer Network"><a
+                        href="https://developer.mozilla.org/">MDN</a></abbr>.</li>
+        </ol>
+    </section>
+    <hr>
+
+    <section id="vacation">
+        <h2>I am also planning a vacation</h2>
+        <p>I am not working hard but I am going to go for a <em>summer</em> vacation anyway.</p>
+        <h3>Places I'd like to visit</h3>
+        <ul>
+            <li>
+                <p>I've heard good things about the carribean.</p>
+                <figure>
+                <img src="img/carribeanpic.jpg" alt="Carribean Beach" title="I want to visit a Carribean beach." width="450" height="300" loading="lazy" ><!--makes the page load the page till the fold(end of the display screen) and a little after that as we scroll; while eager makes it load all at once- lazy loading is a very good performance enhancer in case the webpage has lots of images below the fold-->
+                <figcaption>Carribean Beach Getaway</figcaption><!--figcaption can either be the first thing or the last thing inside the figure attribute-->
+                </figure>
+            </li>
+            <li>
+                <p>I've also heard good things about going to Baga beach in Goa</p>
+                <address>
+                    7/225/A, Saunta Vaddo, Baga, Goa 403516
+                </address>
+                <figure>
+                <img src="img/vacation.jpg" alt="Beach vacation" title="It's 5 o'clock somewhere" width="512" height="321.6">
+                <figcaption>A couples vacation image</figcaption>
+                </figure>
+            </li>
+        </ul>
+        <h3>Places I want to avoid</h3>
+        <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>.</dd>
+            <dt>South Pole</dt>
+            <dd>I hear this is also <strong>cold</strong>.</dd>
+            <dt>Mountain tops</dt>
+            <dd>Same here.</dd>
+        </dl>
+    </section>
+
+    <hr>
+    &lt;&lt;&lt;&copy;<a href="about.html">Saptarshi Bandyopadhyay
+    </a>&gt;&gt;&gt;
+    <p>
+        <a href="#">Back to Top</a>
+    </p>
+</body>
+
+</html>

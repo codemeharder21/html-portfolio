@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Saptarshi Bandyopadhyay">
+    <meta name="description"
+        content="This page contains all the things that I am learning in this free time about html documents">
+    <title>Not My First Web Page</title>
+    <link rel="icon" href="HTML5_logo_and_wordmark.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <h1>Hello Welcome to the World!</h1>
+
+    <hr>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#html">Learning HTML</a><!--Creating internal reference(to another portion of same page)-->
+            </li>
+            <li>
+                <a href="#vacation">Planning a vacation</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <section id="html">
+        <h2>I am ready to learn html</h2>
+        <p>This is not my first web page</p>
+        <h3>My Daily Schedule</h3>
+        <p>Let me tell you how :</p>
+        <ol>
+            <li>&nbsp;&nbsp;&nbsp;... I learn more web dev.</li>
+            <li>&nbsp;&nbsp;&nbsp;... I plan out my schedule.</li>
+            <li>&nbsp;&nbsp;&nbsp;... I use resources from <abbr title="Mozilla Developer Network"><a
+                        href="https://developer.mozilla.org/">MDN</a></abbr>.</li>
+        </ol>
+    </section>
+    <hr>
+
+    <section id="vacation">
+        <h2>I am also planning a vacation</h2>
+        <p>I am not working hard but I am going to go for a <em>summer</em> vacation anyway.</p>
+        <h3>Places I'd like to visit</h3>
+        <ul>
+            <li>
+                <p>I've heard good things about the carribean.</p>
+            </li>
+            <li>
+                <p>I've also heard good things about going to:</p>
+                <address>
+                    Kartavya Path, India Gate, New Delhi, Delhi 110001
+                </address>
+            </li>
+        </ul>
+        <h3>Places I want to avoid</h3>
+        <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>.</dd>
+            <dt>South Pole</dt>
+            <dd>I hear this is also <strong>cold</strong>.</dd>
+            <dt>Mountain tops</dt>
+            <dd>Same here.</dd>
+        </dl>
+    </section>
+
+    <hr>
+    &lt;&lt;&lt;&copy;<a href="about.html">Saptarshi Bandyopadhyay
+    </a>&gt;&gt;&gt;<!--creating relative reference to another page on the same server-->
+    <p>
+        <a href="#">Back to
+            Top</a><!--We're linking this to the # itself that is to the # links at the top of the page-->
+    </p>
+</body>
+<!--In the name of the address on brave/chrome we have <our ip address>:<port number>/<name of file(here tt4.html)#> but the name of file can be removed in which case the index page is opened in whose absence we get to choose among the pages on the live server and explore any one of them-->
+
+</html>
